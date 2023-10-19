@@ -2,11 +2,11 @@ args: {
 	// This must be TRUE to accept the EULA
 	eula: true
 	// Mode: "creative or survival"
-	mode: enum("creative", "survival") || default "creative"
+	mode: enum("creative", "survival") || default "survival"
 	// Difficulty
-	difficulty: "peaceful"
+	difficulty: "normal"
 	// Allow Flight
-	allowFlight: true
+	allowFlight: false
 	// Enable GeyserMC
 	geyser: true
 	// Version of Minecraft paper to download
